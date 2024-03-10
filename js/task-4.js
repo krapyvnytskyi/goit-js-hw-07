@@ -11,12 +11,12 @@ form.addEventListener('submit', event => {
     return;
   }
 
-  const form = {
+  const formData = {
     email: email,
     password: password,
   };
 
-  console.log(form);
+  console.log(formData);
 
   form.reset();
 });

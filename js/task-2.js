@@ -32,7 +32,10 @@ const list = images.map(item => {
   const img = document.createElement('img');
   img.src = item.url;
   img.alt = item.alt;
+  img.style.width = '360px';
+  img.style.height = '300px';
   li.appendChild(img);
+
   return li;
 });
 
